@@ -32,3 +32,5 @@
 4. Призначення делегата shouldRetry у RetryHelper:
 
 Дозволяє гнучко фільтрувати винятки та визначати, чи має сенс повторювати операцію. Наприклад, тимчасові помилки (IOException, HttpRequestException) повторюються, тоді як логічні помилки (ArgumentException, NullReferenceException) одразу прокидаються далі без марного витрачання часу.
+
+![alt text](image.png)
